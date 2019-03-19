@@ -28,4 +28,5 @@ class Song < ActiveRecord::Base
         self.notes.build(content: content)
       end
     end
+  end
 end
